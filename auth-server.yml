@@ -29,8 +29,8 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: create
-  mvc
-    view
+  mvc:
+    view:
       prefix: /WEB-INF/pages
       suffix: .jsp
 
