@@ -34,4 +34,7 @@ spring:
     view:
       prefix: /WEB-INF/pages/
       suffix: .jsp
-
+logging:
+  level:
+     org:
+       springframework: DEBUG
