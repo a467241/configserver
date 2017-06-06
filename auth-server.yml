@@ -3,7 +3,7 @@
 server:
   port: 8899
   contextPath: /userauth
-  servlet-path: /oauth/**,/login,/me
+#  servlet-path: /oauth/**,/login,/me
 
 eureka:
   client:
