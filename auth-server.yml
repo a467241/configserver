@@ -30,10 +30,10 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: create
-  mvc:
-    view:
-      prefix: /WEB-INF/pages/
-      suffix: .jsp
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/pages/
+#      suffix: .jsp
   thymeleaf:
     prefix: classpath:/templates/
     suffix: .html
