@@ -39,7 +39,7 @@ spring:
     suffix: .html
     cache: false
   messages:
-    basename: Messages
+    basename: messages
     encoding: UTF-8
 logging:
   level:
