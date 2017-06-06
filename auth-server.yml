@@ -38,6 +38,9 @@ spring:
     prefix: /templates/
     suffix: .html
     cache: false
+  messages:
+    basename: Messages
+    encoding: UTF-8
 logging:
   level:
      org:
