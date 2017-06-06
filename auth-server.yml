@@ -35,9 +35,10 @@ spring:
       prefix: /WEB-INF/pages/
       suffix: .jsp
   thymeleaf:
-    prefix: /templates/
+    prefix: classpath:/templates/
     suffix: .html
     cache: false
+    enabled: true
   messages:
     basename: messages
     encoding: UTF-8
